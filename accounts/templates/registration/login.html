@@ -8,4 +8,7 @@
     </form>
         <p><a href="{% url 'accounts:password_reset' %}">Forgot Password</a></p>
 
+    <strong>OR</strong>
+    <p>Login via <a href="{% url 'social:begin' 'github' %}">Github</a></p>
+
 {% endblock %}
